@@ -3,27 +3,34 @@
 
     <string name="app_name">Belated</string>
     <string name="action_settings">Settings</string>
-    
-    <string name="action_refresh">Refresh</string><string name="title_activity_settings">Settings</string><string name="title_service_control_setting">Tell meeting organisers if I\'m likely to be late.</string><string name="label_location_service_setting">Belated Service</string><string name="description_service_control_setting">If enabled, we\'ll periodically send your location to an online service. Your phone\'s GPS and data connection will be used.</string>
-    
-    
+    <string name="action_refresh">Refresh</string>
+    <string name="action_depositedfiles">Show documents deposited here</string><string name="action_depositedfiles_condensed">Here</string><string name="title_activity_settings">Settings</string>
+    <string name="title_service_control_setting">Tell meeting organisers if I\'m likely to be late.</string>
+    <string name="label_location_service_setting">Belated Service</string>
+    <string name="description_service_control_setting">If enabled, we\'ll periodically send your location to an online service. Your phone\'s GPS and data connection will be used.</string>
     <string name="title_service_ip_setting">Service IP</string>
-    <string name="description_service_ip_setting">The service ip address.</string><string name="title_email_setting">Your email</string>
-    
+    <string name="description_service_ip_setting">The service ip address.</string>
+    <string name="title_email_setting">Your email</string>
     <string name="title_alternative_travel">Alternatives</string>
     <string name="title_physical_travel">Travel Options</string>
     <string name="title_walking_directions">Walking</string>
     <string name="title_driving_directions">Driving</string>
     <string name="title_transit_directions">Public Transport</string>
-    <string name="subtitle_directions_not_available">Not available from here</string><string name="action_navigate">Go</string><string name="title_video_conference">Video Conference</string>
+    <string name="subtitle_directions_not_available">Not available from here</string>
+    <string name="action_navigate">Go</string>
+    <string name="title_video_conference">Video Conference</string>
     <string name="subtitle_video_conference">via Google Hangout</string>
-    <string name="action_join_conference">Join</string><string name="title_decline_meeting">Won\'t Attend</string>
+    <string name="action_join_conference">Join</string>
+    <string name="title_decline_meeting">Won\'t Attend</string>
     <string name="subtitle_decline_meeting">Decline the invitation</string>
     <string name="action_decline_meeting">Decline</string>
-    <string name="action_undo_decline_meeting">Undo</string><string name="title_loading">Loading…</string>
+    <string name="action_undo_decline_meeting">Undo</string>
+    <string name="title_loading">Loading…</string>
     <string name="title_no_meetings">No upcoming meetings.</string>
     <string name="title_service_unavailable">Service unavailable.</string>
-    
+    <string name="title_activity_files">Deposited Files</string>
+    <string name="title_no_location_available">Unable to find your location.</string>
+    <string name="title_no_files_available">No files found.</string>
     
     
 

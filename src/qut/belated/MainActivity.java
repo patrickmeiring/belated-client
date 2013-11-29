@@ -155,6 +155,9 @@ public class MainActivity extends Activity {
     		case R.id.action_refresh:
     			refreshContent();
     			return true;
+    		case R.id.action_depositedfiles:
+    			openDepositedFilesActivity();
+    			return true;
     		default:
     			return super.onOptionsItemSelected(item);
     	}
@@ -164,6 +167,12 @@ public class MainActivity extends Activity {
     {
         Intent openSettings = new Intent(this, SettingsActivity.class); 
         startActivity(openSettings);
+    }
+    
+    private void openDepositedFilesActivity()
+    {
+        Intent openDepositedFiles = new Intent(this, FilesActivity.class); 
+        startActivity(openDepositedFiles);
     }
     
     private void startTravel(PhysicalTravelMode travelMode)
@@ -273,7 +282,6 @@ public class MainActivity extends Activity {
     	if (!contentLoading)
     		loadContent();
     }
-    
     
     
     private static boolean isForeground()

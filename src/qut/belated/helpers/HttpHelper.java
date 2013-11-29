@@ -9,6 +9,7 @@ public class HttpHelper {
 	static String LOCATION_URL = "http://%s/REST/location";
 	static String MEETINGS_URL = "http://%s/REST/meetings/%s";
 	static String TRAVEL_PLAN_URL = "http://%s/REST/meeting/%s/travel";
+	static String NEARBY_FILES_URL = "http://%s/REST/nearbyfiles";
 	static String GOOGLE_DIRECTIONS_URL = "http://maps.google.com/maps?saddr=%s&daddr=%s&dirflag=%s";
 	static String GOOGLE_DIRECTIONS_CAR_FLAG = "d";
 	static String GOOGLE_DIRECTIONS_TRANSIT_FLAG = "r";
@@ -31,6 +32,11 @@ public class HttpHelper {
 	public static String getTravelPlanUrl(String ip, String meeting)
 	{
 		return String.format(TRAVEL_PLAN_URL, ip, meeting);
+	}
+	
+	public static String getNearbyFilesUrl(String ip)
+	{
+		return String.format(NEARBY_FILES_URL, ip);
 	}
 	
 	private static String getGoogleDirectionsFlag(PhysicalTravelMode travelMode)
